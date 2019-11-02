@@ -37,7 +37,7 @@ while ($deliveries = $alldeliveries->fetch())
 			    </div>
 			</div>
 			<div class="row">
-				<button type="button" class="btn btn-default pull-right">Apply</button>
+				<button type="button" class="btn btn-jcskipper pull-right">Apply</button>
 			</div>
 			<hr />
 	</div>

@@ -7,19 +7,19 @@
             <div class="form-group map-form form-row">
               <div class="col-sm-4">  
               <div class="input-group">
-                <input readonly type="text" class="form-control" name="from_point" placeholder="Departure">
+                <input readonly type="text" class="form-control" name="from_point" placeholder="Click on map to select point of departure">
                 <span class="input-group-addon" onclick="addMarkerDeparture()">
                   <a class="glyphicon glyphicon-pushpin" style="color:green"></a>
                 </span>  
               </div></div>
               <div class="col-sm-4">  
               <div class="input-group">
-                <input readonly type="text" class="form-control" name="to_point" placeholder="Arrival">
+                <input readonly type="text" class="form-control" name="to_point" placeholder="Click on map to select point of arrival">
                 <span class="input-group-addon" onclick="addMarkerArrival()">
                   <a class="glyphicon glyphicon-pushpin" style="color:red"></a>  
               </div></div>
               <div class="col-sm-4">
-                <input type="submit" class="btn btn-primary pull-right" value="Submit a delivery">
+                <input type="submit" class="btn btn-jcskipper pull-right" value="Submit a delivery">
               </div>
             </div>
           </form>   
@@ -43,14 +43,27 @@
           <h4>A platform to follow your delivery</h4>
       </div>
     </div> 
+    <br>
     <div class="row">
-      <h3>Become a JCskipper's delivery captain</h3>
-      <h4>Many delivery opportunities around the world, you just have to choose</h4>
-      <dt>Prerequisites:</dt>
-      <dd>Yacht captain certification (Yachtmaster or equivalent) <br> Be approved by one of our skippers <br> Skipper's liability insurance </dd>
+      <div class="col-sm-5">
+        <div class="imgskipper" style="background-image:url(public/img/skipperimg.jpg)"></div>
+      </div>
+      <div class="col-sm-7">
+        <h3>Become a JCskipper's delivery captain</h3>
+        <h4>Many delivery opportunities around the world, you just have to choose</h4>
+        <dt>Prerequisites:</dt>
+        <dd>Yacht captain certification (Yachtmaster or equivalent) <br> Be approved by one of our skippers <br> Skipper's liability insurance </dd>
+    </div>
     </div>
     </div>
   </div>
+  <br>
+
+  <footer class="footer">
+      <div class="container">
+        <span class="text-muted">JCskipper is a platform that connects professional skippers with people or organization willing to deliver a yacht.</span>
+      </div>
+    </footer>
 <?php $content = ob_get_clean(); ?>
 
 
